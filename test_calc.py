@@ -7,4 +7,6 @@ def test_calc():
 def test_get_minus():
     calc = Calc()
     assert calc.get_minus(10,3) == 7
+    assert calc.get_minus(6, 3) == 3
+
 
