@@ -6,4 +6,6 @@ def test_calc():
 
 def test_getDevide():
     calc = Calc()
+    ret = calc.getDevide(4, 2)
+    assert ret == 2
 
