@@ -3,7 +3,11 @@ from calc import Calc
 
 
 def test_calc():
-    pass
+    calc = Calc()
+    a=1
+    b=2
+    c=3
+    assert a+b+c == calc.getSumSum(a,b,c)
 
 def test_get_minus():
     calc = Calc()
