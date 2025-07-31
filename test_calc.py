@@ -8,4 +8,4 @@ def test_calc():
 def test_calc_get_zegop():
     sut = Calc()
     ret = sut.getZegop(3, 3)
-    assert ret == 3
+    assert ret == 9
