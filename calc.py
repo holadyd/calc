@@ -1,6 +1,10 @@
 class Calc:
+
     def get_minus(self, a, b):
         return a - b
+
+    def getSum(self,a,b):
+        return a + b
 
     def getGop(self, a, b):
         return a*b
